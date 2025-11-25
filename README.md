@@ -31,19 +31,19 @@ All rainfall data were processed as spatial averages, aggregated by region and m
 ## Methodology Summary
 1. Data Preparation
 
-* Extracted monthly rainfall datasets (1998–2019) for all six regions
+   -* Extracted monthly rainfall datasets (1998–2019) for all six regions
 
-* Computed spatial means for each region
+   -* Computed spatial means for each region
 
-* Created monthly rainfall anomalies
+   -* Created monthly rainfall anomalies
 
-* Applied smoothing (Rolling / LOESS) for noise reduction
+   -* Applied smoothing (Rolling / LOESS) for noise reduction
 
 2. ENSO & IOD Index Processing
 
-Used MEI.v2 for ENSO
+   -* Used MEI.v2 for ENSO
 
-Used DMI (Dipole Mode Index) for IOD
+   -* Used DMI (Dipole Mode Index) for IOD
 
 Cleaned, melted, and merged monthly index data with rainfall anomalies
 
