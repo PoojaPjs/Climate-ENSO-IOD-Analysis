@@ -29,15 +29,15 @@ Using Python-based analysis, the study evaluates: Monthly rainfall variations, S
 All rainfall data were processed as spatial averages, aggregated by region and month for the full 22-year period.
 
 ## Methodology Summary
--1. Data Preparation
+1. Data Preparation
 
-   -* Extracted monthly rainfall datasets (1998–2019) for all six regions
+  * Extracted monthly rainfall datasets (1998–2019) for all six regions
 
-   -* Computed spatial means for each region
+  * Computed spatial means for each region
 
-   -* Created monthly rainfall anomalies
+  * Created monthly rainfall anomalies
 
-   -* Applied smoothing (Rolling / LOESS) for noise reduction
+  * Applied smoothing (Rolling / LOESS) for noise reduction
 
 2. ENSO & IOD Index Processing
 
