@@ -37,99 +37,125 @@ All rainfall data were processed as spatial averages, aggregated by region and m
 
   * Created monthly rainfall anomalies
 
-  * Applied smoothing (Rolling / LOESS) for noise reduction
+  * Applied smoothing for noise reduction
 
 2. ENSO & IOD Index Processing
 
-   -* Used MEI.v2 for ENSO
+* Used MEI.v2 for ENSO
 
-   -* Used DMI (Dipole Mode Index) for IOD
+* Used DMI (Dipole Mode Index) for IOD
 
-Cleaned, melted, and merged monthly index data with rainfall anomalies
 
-Seasonal groupings: DJF, MAM, JJA, SON
+* Cleaned, melted, and merged monthly index data with rainfall anomalies
+
+
+* Seasonal groupings: DJF, MAM, JJA, SON
 
 3. Statistical Analysis
 
-Pearson correlation between ENSO/IOD indices and rainfall anomalies
 
-Both monthly and seasonal correlation matrices were generated
+* Pearson correlation between ENSO/IOD indices and rainfall anomalies
 
-Seasonal correlations saved as individual CSV files
+
+* Both monthly and seasonal correlation matrices were generated
+
+
+* Seasonal correlations saved as individual CSV files
 
 4. Visualization
 
-Time-series plots of monthly rainfall
 
-Monthly anomaly plots
+* Time-series plots of monthly rainfall
 
-Seasonal and annual rainfall variability
 
-Bar plots of ENSO–rainfall and IOD–rainfall correlations
+* Monthly anomaly plots
 
-Scatter plots and heatmaps (where applicable)
+
+* Seasonal and annual rainfall variability
+
+
+* Bar plots of ENSO–rainfall and IOD–rainfall correlations
 
 5. EOF Analysis
 
-Performed EOF decomposition to identify dominant spatial patterns
 
-Visualized principal components and explained variance
+* Performed EOF decomposition to identify dominant spatial patterns
+
+
+* Visualized principal components and explained variance
 
 ## Tools & Libraries Used
 
 This project relies on:
 
-Python 3.10+
 
-Pandas
+* Python 3.10+
 
-NumPy
 
-Matplotlib
+* Pandas
 
-Xarray
 
-Cartopy (if mapping EOFs)
+* NumPy
 
-SciPy
 
-scikit-learn (for EOF/PCA)
+* Matplotlib
+
+
+* Xarray
+
+
+* Cartopy 
+
+
+* SciPy
+
+
+* scikit-learn (for EOF/PCA)
 
 ## 📈 Key Outputs
 
 The repository includes:
 
-Correlation Coefficient CSVs
 
-ENSO vs rainfall (monthly & seasonal)
+* Correlation Coefficient CSVs
 
-IOD vs rainfall (monthly & seasonal)
 
-Climate Plots
+* ENSO vs rainfall (monthly & seasonal)
 
-Monthly rainfall time series
 
-Rainfall anomalies
+* IOD vs rainfall (monthly & seasonal)
 
-Smoothed anomalies
 
-Correlation bar charts
+* Climate Plots
 
-EOF spatial & temporal patterns
+
+* Monthly rainfall time series
+
+
+* Rainfall anomalies
+
+
+* Smoothed anomalies
+
+
+* Correlation bar charts
+
+
+* EOF spatial & temporal patterns
 
 ## 🎯 Objectives of the Study
 
 The main research questions:
 
-How does ENSO influence rainfall across India and Southeast Asia?
+1. How does ENSO influence rainfall across India and Southeast Asia?
 
-Does IOD contribute significantly to rainfall variability in each region?
+2. Does IOD contribute significantly to rainfall variability in each region?
 
-Which regions show the strongest ENSO/IOD teleconnections?
+3. Which regions show the strongest ENSO/IOD teleconnections?
 
-What dominant modes of rainfall variability are revealed by EOF analysis?
+4. What dominant modes of rainfall variability are revealed by EOF analysis?
 
-How do monthly and seasonal dynamics differ?
+5. How do monthly and seasonal dynamics differ?
 
 ## 📜 Citation
 
